@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Kendrick Lamar - Accueil</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="underline-sketch">
+            Kendrick Lamar
+            <svg viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M2 6 C50 2, 150 10, 198 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </h1>
+        <nav>
+            <a href="index.html">Accueil</a> |
+            <a href="biographie.html">Biographie</a> |
+            <a href="discographie.html">Discographie</a> |
+            <a href="interview.html">Interview</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Galerie -->
+        <div class="section">
+            <h2 style="color:#fff; text-transform:uppercase;">Galerie</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/ken1.jpg" alt="Kendrick Lamar concert">
+                    <h3>Live</h3>
+                    <p>Kendrick en performance scénique, énergie et puissance.</p>
+                </div>
+                <div class="card">
+                    <img src="img/ken2.jpg" alt="Kendrick Lamar portrait">
+                    <h3>Portrait</h3>
+                    <p>Un des artistes les plus influents de sa génération.</p>
+                </div>
+                <div class="card">
+                    <img src="img/ken3.jpg" alt="Kendrick Lamar studio">
+                    <h3>Festival</h3>
+                    <p>Performance mémorable au festival Lollapalooza 2016.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Concerts -->
+        <div class="section">
+            <h2 style="color:#fff; text-transform:uppercase;">Dates de concerts</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Paris - Accor Arena</h3>
+                    <p>20 octobre 2025</p>
+                </div>
+                <div class="card">
+                    <h3>Londres - O2 Arena</h3>
+                    <p>28 octobre 2025</p>
+                </div>
+                <div class="card">
+                    <h3>Los Angeles - Staples Center</h3>
+                    <p>10 novembre 2025</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vidéo -->
+        <div>
+            <h2 style="color:#fff; text-transform:uppercase;">Clip vidéo</h2>
+            <iframe class="iframe" src="https://www.youtube.com/embed/T6eK-2OQtew" title="Not Like Us" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Retrouvez Kendrick Lamar sur :</p>
+        <a href="https://www.instagram.com/kendricklamar/" target="_blank">Instagram</a> |
+        <a href="https://twitter.com/kendricklamar" target="_blank">Twitter/X</a> |
+        <a href="https://www.facebook.com/kendricklamar" target="_blank">Facebook</a> |
+        <a href="https://oklama.com/" target="_blank">Site officiel</a>
+    </footer>
+
+    <!-- Boutons haut/bas -->
+    <button id="topBtn" onclick="scrollToTop()">⬆</button>
+    <button id="bottomBtn" onclick="scrollToBottom()">⬇</button>
+
+    <script>
+        function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+        function scrollToBottom() { window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); }
+    </script>
+
+</body>
+
+</html>

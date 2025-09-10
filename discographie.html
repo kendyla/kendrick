@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="discographie.css">
+    <title>Kendrick Lamar - Discographie</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="underline-sketch">
+            Discographie de Kendrick Lamar
+            <svg viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M2 6 C50 2, 150 10, 198 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </h1>
+
+        <nav>
+            <a href="index.html">Accueil</a> |
+            <a href="biographie.html">Biographie</a> |
+            <a href="discographie.html">Discographie</a> |
+            <a href="interview.html">Interview</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cards">
+            <div class="card">
+                <img src="img/ken8.jpg" alt="Section.80">
+                <h3>Section.80</h3>
+                <p>(2011) Premier album studio, réflexion sur la jeunesse et la société américaine.</p>
+            </div>
+            <div class="card">
+                <img src="img/ken9.jpg" alt="good kid, m.A.A.d city">
+                <h3>good kid, m.A.A.d city</h3>
+                <p>(2012) Album autobiographique, un récit puissant de Compton.</p>
+            </div>
+            <div class="card">
+                <img src="img/ken6.jpg" alt="To Pimp a Butterfly">
+                <h3>To Pimp a Butterfly</h3>
+                <p>(2015) Album expérimental jazz/rap, critique sociale et politique.</p>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png" alt="DAMN.">
+                <h3>DAMN.</h3>
+                <p>(2017) Album récompensé par un prix Pulitzer, hits comme “HUMBLE.”.</p>
+            </div>
+            <div class="card">
+                <img src="img/ken10.jpg" alt="Mr. Morale & The Big Steppers">
+                <h3>Mr. Morale & The Big Steppers</h3>
+                <p>(2022) Double album introspectif, thèmes de thérapie et d’évolution.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 - Site fan de Kendrick Lamar</p>
+    </footer>
+
+    <button id="topBtn" onclick="scrollToTop()">⬆</button>
+    <button id="bottomBtn" onclick="scrollToBottom()">⬇</button>
+
+    <script>
+        function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+        function scrollToBottom() { window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); }
+    </script>
+
+</body>
+
+</html>

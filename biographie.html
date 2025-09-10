@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="biographie.css">
+    <title>Kendrick Lamar - Biographie</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="underline-sketch">
+            Biographie de Kendrick Lamar
+            <svg viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M2 6 C50 2, 150 10, 198 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </h1>
+        <nav>
+            <a href="index.html">Accueil</a> |
+            <a href="biographie.html">Biographie</a> |
+            <a href="discographie.html">Discographie</a> |
+            <a href="interview.html">Interview</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cards">
+            <div class="card">
+                <img src="img/ken4.jpg" alt="Début de carrière">
+                <h3>Début</h3>
+                <p>Kendrick commence à rapper dans sa jeunesse à Compton, influencé par Tupac et Dr. Dre.</p>
+            </div>
+            <div class="card">
+                <img src="img/ken5.jpg" alt="Succès">
+                <h3>Succès</h3>
+                <p>En 2022, Kendrick se produit au Super Bowl Halftime Show aux côtés de Dr. Dre, Snoop Dogg, Eminem,
+                    Mary J. Blige et 50 Cent. Une performance légendaire, vue par des millions de spectateurs, qui
+                    confirme son statut d’icône mondiale.</p>
+            </div>
+            <div class="card">
+                <img src="img/ken6.jpg" alt="Engagement">
+                <h3>Engagement</h3>
+                <p>Son album <em>To Pimp a Butterfly</em> aborde le racisme, la politique et l’identité noire.</p>
+            </div>
+            <div class="card">
+                <img src="img/ken7.jpg" alt="Récompenses">
+                <h3>Récompenses</h3>
+                <p>Il reçoit plusieurs Grammy Awards et le prestigieux prix Pulitzer pour <em>DAMN.</em>.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 - Site fan de Kendrick Lamar</p>
+    </footer>
+
+    <button id="topBtn" onclick="scrollToTop()">⬆</button>
+    <button id="bottomBtn" onclick="scrollToBottom()">⬇</button>
+
+    <script>
+        function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+        function scrollToBottom() { window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); }
+    </script>
+
+</body>
+
+</html>

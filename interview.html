@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="interview.css">
+    <title>Kendrick Lamar - Interview</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="underline-sketch">
+            Interview de Kendrick Lamar
+            <svg viewBox="0 0 200 10" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M2 6 C50 2, 150 10, 198 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </h1>
+        <nav>
+            <a href="index.html">Accueil</a> |
+            <a href="biographie.html">Biographie</a> |
+            <a href="discographie.html">Discographie</a> |
+            <a href="interview.html">Interview</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="qa">
+            <h3>Q : Qu’est-ce qui inspire ta musique ?</h3>
+            <p>Kendrick : Ma communauté, mes expériences à Compton, mais aussi la foi et les luttes sociales.</p>
+        </div>
+        <div class="qa">
+            <h3>Q : Comment vois-tu ton évolution artistique ?</h3>
+            <p>Kendrick : Chaque album est une étape de ma vie. Je ne fais pas de musique pour plaire, mais pour être
+                vrai.</p>
+        </div>
+        <div class="qa">
+            <h3>Q : Que signifie pour toi le prix Pulitzer que tu as remporté ?</h3>
+            <p>Kendrick : C’est une reconnaissance pour la culture hip-hop. Cela montre que nos histoires ont une valeur
+                universelle.</p>
+        </div>
+        <div class="qa">
+            <h3>Q : Quels conseils donnerais-tu aux jeunes artistes ?</h3>
+            <p>Kendrick : Restez fidèles à vous-mêmes. Le succès vient et part, mais la vérité reste.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 - Site fan de Kendrick Lamar</p>
+    </footer>
+
+    <button id="topBtn" onclick="scrollToTop()">⬆</button>
+    <button id="bottomBtn" onclick="scrollToBottom()">⬇</button>
+
+    <script>
+        function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+        function scrollToBottom() { window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); }
+    </script>
+
+</body>
+
+</html>

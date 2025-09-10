@@ -35,7 +35,7 @@
      /*padding: 40px 20px;*/
      /*max-width: 1000px;*/
      margin: auto;
-     background-image: url("/img/giphy.gif");
+     background-image: url("img/giphy.gif");
      background-size: cover;
      background-position: center center;     
  }
@@ -155,4 +155,5 @@
  .underline-sketch svg path {
      stroke-dasharray: none;
      stroke-dashoffset: 0;
+
  }
